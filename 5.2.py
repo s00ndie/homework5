@@ -5,5 +5,5 @@ clean_text = text.translate(punc)
 clean_text= clean_text.title().replace(' ', '')
 if len(clean_text) > 140:
     clean_text=clean_text[:140]
-print(clean_text)
+print(f'#{clean_text}')
 print(len(clean_text))
